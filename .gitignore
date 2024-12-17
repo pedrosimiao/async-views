@@ -1,0 +1,26 @@
+# Ignore arquivos Python compilados
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Ambiente virtual
+env/
+venv/
+
+# Configurações locais e variáveis de ambiente
+*.local
+.env
+db.sqlite3
+
+# Logs
+*.log
+
+# Arquivos gerados pelo sistema
+*.tmp
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos do Uvicorn (ASGI server)
+*.pid
